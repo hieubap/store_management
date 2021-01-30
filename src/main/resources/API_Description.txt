@@ -1,0 +1,18 @@
+#POST: /bill/order
+đặt đơn đồ ăn
+
+#PUT: bill/{id}/received
+xác nhận nhận đã nhận đơn hàng
+
+#GET: /bill/1/find
+tìm kiếm thông tin một đơn hàng
+
+#GET: /bill/find_all
+tìm kiếm thông tin tất cả đơn hàng
+
+#POST: /food
+thêm một món ăn
+
+#GET: /bill/date?fromDate=2021-01-01&toDate=2021-12-19
+tìm các bill từ ... đến ... và nhóm theo tháng
+
